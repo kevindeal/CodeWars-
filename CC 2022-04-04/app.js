@@ -1,6 +1,5 @@
 //Given an array of integers, return a new array with each value doubled.
 
-const { double } = require("webidl-conversions")
 
 // for example:
 
