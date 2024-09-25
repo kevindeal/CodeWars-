@@ -26,6 +26,6 @@ function getMinMax(arr) {
 }
 
 // Example usage:
-// const numbers = [3, 7, 2, 9, 4];
-// const result = getMinMax(numbers);
-// console.log(result); // Output: [2, 9]
+const numbers = [3, 7, 2, 9, 4];
+const result = getMinMax(numbers);
+console.log(result); // Output: [2, 9]
