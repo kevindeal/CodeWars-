@@ -21,6 +21,10 @@ const numbers = [1, 2, 3];
 // Write these using map, filter, reduce:
 // 1. Double each number
 const doubleNumbers = numbers.map(num => num * 2);
-// 2. Filter even numbers  
+// 2. Filter even numbers
+const evenNumbers = numbers.filter(num => num % 2 === 0);
 // 3. Sum all numbers
-
+const sum = numbers.reduce((t,n) => t + n, 0);
+// 4. multiply all numbers(get product)
+// We start at 1, everything * 0 = 0
+const product = numbers.reduce((t,n) => t * n, 1);
